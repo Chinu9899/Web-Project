@@ -15,7 +15,12 @@
 header{
     height: 70vh;
     /* background-color: #CAE9FF; */
+    border-bottom: 2px solid #62B6CB;
 }
+.container{
+    width: 90%;
+}
+
 .navbar{
     background-color: #94cdf6;
     height: 80px;
@@ -99,4 +104,13 @@ img{
 .hero_image{
     height: 350px;
     
+}
+
+.company{
+    background-color: #94CDF6;
+    height: 150px;
+    /* width: 80%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
